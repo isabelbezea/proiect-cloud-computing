@@ -7,6 +7,7 @@ Aplicația oferă posibilitatea întocmirii unui jurnal de călătorie în forma
 ![](images/ss1.png)
 
 In figura de mai jos este reprezentat formularul de adaugare a rezervarii calatoriei
+
 ![](images/ss2.png)
 
 **Descriere API**
@@ -14,6 +15,7 @@ API-ul folosit este cel oferit de YouTube, disponibil gratuit la acest link, în
 În cazul nostru, aplicația va returna primul videoclip din lista de Youtube la căutarea ”atractions in” + variabila destinație. 
 
 **Flux de date**
+
 Rutele create pentru asigurarea comunicării dintre back-end și baza de date sunt **GET, POST și DELETE** 
 
 ```
