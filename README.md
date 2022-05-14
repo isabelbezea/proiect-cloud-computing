@@ -34,7 +34,7 @@ app.get('/bookings', async(req, res)=>{
 
 app.post('/bookings', async(req,res)=>{
   try{
-   let url = 'https://youtube.googleapis.com/youtube/v3/search?q=atractions%20in%20' + req.body.hotelLocation + '&key=AIzaSyC4IK9S-ffeuJDOIIli0cnpWYjudFhC03Y&type=video&part=snippet'
+   let url = 'https://youtube.googleapis.com/youtube/v3/search?q=atractions%20in%20' + req.body.hotelLocation + '&key=**KEY**&type=video&part=snippet'
    let response = await axios.get(url)
    let first_url = "https://www.youtube.com/watch?v=" + response.data.items[0].id.videoId
    console.log(first_url)
