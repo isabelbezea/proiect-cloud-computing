@@ -4,10 +4,10 @@
 Aplicația web propusă a fost dezvoltată cu ajutorul tehnologiilor Node JS pentru partea de back-end și React pentru front-end.  Atât stocarea datelor cât și deployment-ul sunt realizate cu ajutorul a două servicii în AWS: **RDS - MySQL** (baza de date relațională) și **Cloud9**. 
 Aplicația oferă posibilitatea întocmirii unui jurnal de călătorie în format digital, iar fiecare memorie va fi reprezentată sub forma unui card. Utilizatorul va introduce date referitoare la o călătorie din trecut sau, bineințeles, care urmează să se întâmple, pe baza unui formular. În funcție de destinație, va fi generat în mod automat un video corespunzător. De asemenea, utilizatorul are posibilitatea de a șterge din memorii.
 
-![](images/ss1.PNG)
+![](images/ss1.png)
 
 In figura de mai jos este reprezentat formularul de adaugare a rezervarii calatoriei
-![](images/ss2.PNG)
+![](images/ss2.png)
 
 **Descriere API**
 API-ul folosit este cel oferit de YouTube, disponibil gratuit la acest link, în baza unui token generat în baza contului de google developer: https://developers.google.com/youtube/v3. API-ul permite o funcționalitate identică cu cea a barei de search a YouTube-ului, în sensul că utilizatorul poate căuta videoclipuri după cuvinte cheie. API-ul va primi ca unul dintre parametri de căutare destinația călătoriei introdusă de utilizator în formular și va returna o listă complexă in format JSON cu rezultatele găsite, dintre care cele de interes pentru este atributul ”items”. 
