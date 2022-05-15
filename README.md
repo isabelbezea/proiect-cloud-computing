@@ -1,4 +1,6 @@
 # proiect-cloud-computing
+Nume: Bezea Ana-Isabel
+Grupa: 1077
 
 **Introducere și descrierea problemei**
 
