@@ -2,7 +2,7 @@
 
 **Introducere și descrierea problemei**
 
-Aplicația web propusă a fost dezvoltată cu ajutorul tehnologiilor Node JS pentru partea de back-end și React pentru front-end.  Atât stocarea datelor cât și deployment-ul sunt realizate cu ajutorul a două servicii în AWS: **RDS - MySQL** (baza de date relațională) și **Cloud9**. 
+Aplicația web propusă a fost dezvoltată cu ajutorul tehnologiilor Node JS pentru partea de back-end și React pentru front-end.  Atât stocarea datelor cât și deployment-ul sunt realizate cu ajutorul a două servicii în AWS: **RDS - MySQL** (baza de date relațională) și **EC2**. 
 Aplicația oferă posibilitatea întocmirii unui jurnal de călătorie în format digital, iar fiecare memorie va fi reprezentată sub forma unui card. Utilizatorul va introduce date referitoare la o călătorie din trecut sau, bineințeles, care urmează să se întâmple, pe baza unui formular. În funcție de destinație, va fi generat în mod automat un video corespunzător. De asemenea, utilizatorul are posibilitatea de a șterge din memorii.
 
 ![](images/ss1.png)
@@ -79,4 +79,4 @@ app.delete('/bookings/:hotelName', async (req,res)=>{
 
 Baza de date conține o singură tabelă, ce conține toate datele referitoare la călătoriile utilizatorului.
 
-Proiectul poate fi accesat la urmatorul link: http://3.145.78.104:3000/#
+Proiectul poate fi accesat la urmatorul link: http://18.218.13.13:3000/#
