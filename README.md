@@ -80,3 +80,5 @@ app.delete('/bookings/:hotelName', async (req,res)=>{
 Baza de date conține o singură tabelă, ce conține toate datele referitoare la călătoriile utilizatorului.
 
 Proiectul poate fi accesat la urmatorul link: http://3.23.128.76:3000/#
+Iar link-ul de youtube: https://youtu.be/jL1rp_pKNBw
+ 
