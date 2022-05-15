@@ -13,7 +13,7 @@ In figura de mai jos este reprezentat formularul de adaugare a rezervarii calato
 
 **Descriere API**
 
-API-ul folosit este cel oferit de YouTube, disponibil gratuit la acest link, în baza unui token generat în baza contului de google developer: https://developers.google.com/youtube/v3. API-ul permite o funcționalitate identică cu cea a barei de search a YouTube-ului, în sensul că utilizatorul poate căuta videoclipuri după cuvinte cheie. API-ul va primi ca unul dintre parametri de căutare destinația călătoriei introdusă de utilizator în formular și va returna o listă complexă in format JSON cu rezultatele găsite, dintre care cele de interes pentru este atributul ”items”. 
+API-ul folosit este cel oferit de YouTube, disponibil gratuit la acest link, în baza unui token generat în contul de google developer: https://developers.google.com/youtube/v3. API-ul permite o funcționalitate identică cu cea a barei de search a YouTube-ului, în sensul că utilizatorul poate căuta videoclipuri după cuvinte cheie. API-ul va primi ca unul dintre parametri de căutare destinația călătoriei introdusă de utilizator în formular și va returna o listă complexă in format JSON cu rezultatele găsite, dintre care cele de interes pentru este atributul ”items”. 
 În cazul nostru, aplicația va returna primul videoclip din lista de Youtube la căutarea ”atractions in” + variabila destinație. 
 
 **Flux de date**
